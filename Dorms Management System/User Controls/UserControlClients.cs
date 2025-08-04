@@ -180,7 +180,7 @@ namespace Dorms_Management_System.User_Controls
 
             if (isEmptyAddClient())
             {
-                isEmptyAddClient();
+                FormDashboard.showEmptyMessage();
                 return;
             }
 
